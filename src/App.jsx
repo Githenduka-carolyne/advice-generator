@@ -4,7 +4,7 @@ import { FaQuoteLeft } from "react-icons/fa6";
 import { FaQuoteRight } from "react-icons/fa6";
 import ClipLoader from "react-spinners/ClipLoader";
 import "./global.css";
-import './App.css';
+
 
 function App() { 
   const[advice ,setadvice] = useState(" ");
