@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.html{
+    font-size: 65.2%;
+}
+
+.herosection{
+    height: 30vh;
+    background-color: black;
+    color: white;
+}
+.textbox{
+    display: grid;
+    place-content: center;
+    padding: 30px;
+}
+.herosection-maintitle{
+    font-size: 80px;
+}
+.herosection-maintitle span{
+    color: crimson;
+}
+.container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+form input{
+    padding: 10px;
+    width:100% ;
+}
+.btn{
+    padding: 10px;
+    background-color:crimson;
+    color:black;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.advice h2{
+    font-size: 20px;
+    color:black;
+    border-style:dotted ;
+    padding: 30px;
+}
+.output-section{
+    display: grid;
+    place-content: center;
+}  
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    color: var(--color-black);  
+    padding: 50px;
+}
+@media screen and (max-width:41.93em) {
+    .herosection-maintitle{
+        font-size: 50px;
+    }
+    .container{
+    width: 350px;
+    height: 300px;
+        }
+}
+@media screen and (max-width:18.87em) {
+    .container {
+            width: 250px;
+            height: 300px;
+        }
+    .advice h2{
+    font-size: 12px;
+        }
+
+}
